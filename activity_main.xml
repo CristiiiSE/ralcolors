@@ -1,0 +1,1334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/coordinatorLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/nestedScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="64dp"
+        android:fillViewport="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#d0b084"
+                android:text="RAL 1001 - Beige"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#f9a800"
+                android:text="RAL 1003 - Signalgelb"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#af804f"
+                android:text="RAL 1011 - Braunbeige"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#DDAF27"
+                android:text="RAL 1012 - Zitroenengelb"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint=" #faca30"
+                android:text="RAL 1018 - Zinkgelb"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#ba481b"
+                android:text="RAL 2001 - Rotorange"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#BF3922 "
+                android:text="RAL 2002 - Blutorange"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#f67828 "
+                android:text="RAL 2003 - Pastellorange"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#e25303"
+                android:text="RAL 2004 - Reinorange"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#de5307"
+                android:text="RAL 2009 - Verkehrsorange"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#D05D28 "
+                android:text="RAL 2010 - Signalorange"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#d5654d "
+                android:text="RAL 2012 - Lachsorange"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#a72920"
+                android:text="RAL 3000 - Feuerrot"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#9b2423"
+                android:text="RAL 3001 - Signalrot"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#9b2321 "
+                android:text="RAL 3002 - Karminrot"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#861a22 "
+                android:text="RAL 3003 - Rubinrot"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#6b1c23"
+                android:text="RAL 3004 - Purpurrot"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#59191f"
+                android:text="RAL 3005 - Weinrot"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#3e2022"
+                android:text="RAL 3007 - Schwarzrot"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint=" #6d342d"
+                android:text="RAL 3009 - Oxidrot"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#972e25"
+                android:text="RAL 3013 - Tomatenrot"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#cb7375"
+                android:text="RAL 3014 - Altrosa"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#d8a0a6"
+                android:text="RAL 3015 - Hellrosa"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#A63D2F "
+                android:text="RAL 3016 - Korallenrot"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#cb555d"
+                android:text="RAL 3017 - Rosé"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#c73f4a"
+                android:text="RAL 3018 - Erdbeerrot"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#bb1e10"
+                android:text="RAL 3020 - Verkehrsrot"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#cf6955"
+                android:text="RAL 3022 - Lachsrot"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#ab273c"
+                android:text="RAL 3027 - Himbeerrot"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#cc2c24"
+                android:text="RAL 3028 - Reinrot"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#a63437"
+                android:text="RAL 3031 - Orientrot"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#816183"
+                android:text="RAL 4001 - Rotlila"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button34"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#8d3c4b"
+                android:text="RAL 4002 - Rotviolett"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button35"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#c4618c"
+                android:text="RAL 4003 - Erikaviolett"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button36"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#651E38 "
+                android:text="RAL 4004 - Bordeauxviolett"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button37"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#76689A"
+                android:text="RAL 4005 - Blaulila"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button38"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#903373"
+                android:text="RAL 4006 - Verkehrspurpur"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button39"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#47243c"
+                android:text="RAL 4007 - Purpurviolett"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button40"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#844c82"
+                android:text="RAL 4008 - Signalviolett"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button41"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#9d8692"
+                android:text="RAL 4009 - Pastellviolett"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button42"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#bc4077"
+                android:text="RAL 4010 - Telemagenta"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button43"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#314f6f"
+                android:text="RAL 5000 - Violettblau"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button44"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#0f4c64"
+                android:text="RAL 5001 - Grünblau"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button45"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#00387b "
+                android:text="RAL 5002 - Ultramarinblau"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button46"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#1f3855"
+                android:text="RAL 5003 - Saphirblau"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button47"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#191e28"
+                android:text="RAL 5004 - Schwarzblau"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button48"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#005387"
+                android:text="RAL 5005 - Signalblau"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button49"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#376b8c"
+                android:text="RAL 5007 - Brillantblau"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button50"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#313c48"
+                android:text="RAL 5008 - Graublau"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button51"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#225f78 "
+                android:text="RAL 5009 - Azurblau"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button52"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#004f7c "
+                android:text="RAL 5010 - Enzianblau"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button53"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#1a2b3c"
+                android:text="RAL 5011 - Stahlblau"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button54"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#3B83BD"
+                android:text="RAL 5012 - Lichtblau"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button55"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#193153"
+                android:text="RAL 5013 - Kobaltblau"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button56"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#637d96"
+                android:text="RAL 5014 - Taubenblau"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button57"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#007cb0"
+                android:text="RAL 5015 - Himmelblau"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button58"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#005b8c"
+                android:text="RAL 5017 - Verkehrsblau"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button59"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#058B8C "
+                android:text="RAL 5018 - Türkisblau"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button60"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#005e83"
+                android:text="RAL 5019 - Capriblau"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button61"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#00414b"
+                android:text="RAL 5020 - Ozeanblau"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button62"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint=" #256D7B"
+                android:text="RAL 5021 - Wasserblau"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button63"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#222d5a"
+                android:text="RAL 5022 - Nachtblau"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button64"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#42698c"
+                android:text="RAL 5023 - Fernblau"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button65"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#6093ac"
+                android:text="RAL 5024 Pastellblau"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button66"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#316650"
+                android:text="RAL 6000 - Patinagrün"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button67"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#366735"
+                android:text="RAL 6001 - Smaragdgrün"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button68"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#325928"
+                android:text="RAL 6002 - Laubgrün"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button70"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#50533c"
+                android:text="RAL 6003 - Olivergrün"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button71"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#024442"
+                android:text="RAL 6004 - Blaugrün"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button72"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#114232"
+                android:text="RAL 6005 - Moosgrün"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button73"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#3C392E "
+                android:text="RAL 6006 - Grauoliv"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button74"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#343B29 "
+                android:text="RAL 6007 - Flaschengrün"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button75"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#37342a"
+                android:text="RAL 6008 - Braungrün"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button76"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#27352a"
+                android:text="RAL 6009 - Tannengrün"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button77"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#4D6F39 "
+                android:text="RAL 6010 - Grasgrün"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button78"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#6c7c59"
+                android:text="RAL 6011 - Resedagrün"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button79"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#303d3a"
+                android:text="RAL 6012 - Schwarzgrün"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button80"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#7d765a "
+                android:text="RAL 6013 - Schilfgrün"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button81"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#474135"
+                android:text="RAL 6014 - Gelboliv"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button82"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#3D3D36 "
+                android:text="RAL 6015 - Schwarzoliv"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button83"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#00694c"
+                android:text="RAL 6016 - Türkisgrün"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button84"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#587f40 "
+                android:text="RAL 6017 - Maigrün"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button85"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#61993b"
+                android:text="RAL 6018 - Gelbgrün"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button108"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#b9ceac"
+                android:text="RAL 6019 - Weißgrün"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button109"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#37422F"
+                android:text="RAL 6020 - Chromoxidgrün"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button110"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#8a9977"
+                android:text="RAL 6021 - Blassgrün"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button111"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#3a3327"
+                android:text="RAL 6022 - Braunoliv"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button112"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#008351"
+                android:text="RAL 6024 - Verkehrsgrün"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button113"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#5e6e3b"
+                android:text="RAL 6025 - Farngrün"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button114"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#005f4e"
+                android:text="RAL 6026 - Opalgrün"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button115"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#7EBAB5 "
+                android:text="RAL 6027 - Lichtgrün"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button116"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#315442"
+                android:text="RAL 6028 - Kieferngrün"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button117"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#20603D"
+                android:text="RAL 6029 - Minzgrün"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#237f52"
+                android:text="RAL 6032 - Signqlgrün"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button69"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#46877f"
+                android:text="RAL 6033 - Minttürkis"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button118"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#7aacac"
+                android:text="RAL 6034 - Pastelltürkis"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button119"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#008b29"
+                android:text="RAL 6037 - Reingrün"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button120"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#7a888e"
+                android:text="RAL 7000 - Fehgrau"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button121"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#8c969d"
+                android:text="RAL 7001 - Silbergrau"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button122"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#817863"
+                android:text="RAL 7002 - Olivgrau"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button123"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#7a7669"
+                android:text="RAL 7003 - Moosgrau"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button124"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#9ea0a1"
+                android:text="RAL 7004 - Signalgrau"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button126"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#6c6e6b"
+                android:text="RAL 7005 - Mausgrau"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button127"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#766a5e"
+                android:text="RAL 7006 - Beigegrau"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button128"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#745E3D"
+                android:text="RAL 7008 - Khakigrau"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button129"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#5d6058"
+                android:text="RAL 7009 - Grüngrau"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button130"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#585C56"
+                android:text="RAL 7010 - Zeltgrau"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button131"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#5A6266"
+                android:text="RAL 7011 - Eisengrau"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button86"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#908370"
+                android:text="RAL 1035 - Perlbeige"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button87"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#80643f"
+                android:text="RAL 1036 - Perlgold"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button88"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#923e25"
+                android:text="RAL 2013 - Perlorange"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button89"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#701d23"
+                android:text="RAL 3032 - Perlrubinrot"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button90"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#a53a2d"
+                android:text="RAL 3033 - Perlrosa"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button91"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#6e6387"
+                android:text="RAL 4011 - Perlviolett"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button92"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#6b6b7f"
+                android:text="RAL 4012 - Perlbrombeer"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button93"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#21697c"
+                android:text="RAL 5025 - Perlenzian"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button94"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#0f3052"
+                android:text="RAL 5026 - Perlnachtblau"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button95"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#194D25"
+                android:text="RAL 6035 - Perlgrün"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button96"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#04574b"
+                android:text="RAL 6036 - Perlopalgrün"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button97"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#817B73"
+                android:text="RAL 7048 - Perlmausgrau"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button98"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#7F4031"
+                android:text="RAL 8029 - Perlkupfer"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button100"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#858583"
+                android:text="RAL 9022 - Perlhellgrau"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button101"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#797b7a"
+                android:text="RAL 9023 - Pelrdunkelgrau"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button102"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#EFFB00"
+                android:text="RAL 1026 - Leuchtgelb"
+                android:textColor="#000000" />
+
+            <Button
+                android:id="@+id/button103"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#FF4D06"
+                android:text="RAL 2005 - Leuchtorange"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button104"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#FF9500"
+                android:text="RAL 2007 - Leuchthellorange"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button105"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#ff2d21"
+                android:text="RAL 3024 - Leuchtrot"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button106"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#ff2a1b"
+                android:text="RAL 3026 - Leuchtthellrot"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/button107"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#00F700"
+                android:text="RAL 6038 - Leuchtgrün"
+                android:textColor="#000000" />
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        app:adSize="BANNER"
+        app:adUnitId="ca-app-pub-3363141145026896/6994546662"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nestedScrollView">
+
+    </com.google.android.gms.ads.AdView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
